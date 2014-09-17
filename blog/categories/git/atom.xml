@@ -4,7 +4,7 @@
   <title><![CDATA[Category: git | Happy Hacking]]></title>
   <link href="http://edward.sanwuist.com/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://edward.sanwuist.com/"/>
-  <updated>2014-09-17T20:29:25+08:00</updated>
+  <updated>2014-09-17T20:29:54+08:00</updated>
   <id>http://edward.sanwuist.com/</id>
   <author>
     <name><![CDATA[Edward Chan]]></name>
@@ -18,9 +18,7 @@
     <link href="http://edward.sanwuist.com/blog/2014/09/17/custom-subdomain-in-octopress-with-github-page/"/>
     <updated>2014-09-17T20:24:57+08:00</updated>
     <id>http://edward.sanwuist.com/blog/2014/09/17/custom-subdomain-in-octopress-with-github-page</id>
-    <content type="html"><![CDATA[<h1>custom subdomain in Octopress with Github page</h1>
-
-<p>Follow these step after you deploy your octopress to github page.</p>
+    <content type="html"><![CDATA[<p>Follow these step after you deploy your octopress to github page.</p>
 
 <p>First, you need to create a file named <code>CNAME</code> in your blog&rsquo;s source:
 <code>
