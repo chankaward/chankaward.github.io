@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Happy Hacking]]></title>
-  <link href="http://edward.sanwuist.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: git | Happy Hacking]]></title>
+  <link href="http://edward.sanwuist.com/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://edward.sanwuist.com/"/>
   <updated>2014-09-17T20:29:25+08:00</updated>
   <id>http://edward.sanwuist.com/</id>
@@ -14,30 +14,24 @@
 
   
   <entry>
-    
     <title type="html"><![CDATA[custom subdomain in Octopress with Github page]]></title>
     <link href="http://edward.sanwuist.com/blog/2014/09/17/custom-subdomain-in-octopress-with-github-page/"/>
-    
     <updated>2014-09-17T20:24:57+08:00</updated>
     <id>http://edward.sanwuist.com/blog/2014/09/17/custom-subdomain-in-octopress-with-github-page</id>
-    
     <content type="html"><![CDATA[<h1>custom subdomain in Octopress with Github page</h1>
 
 <p>Follow these step after you deploy your octopress to github page.</p>
 
-<p>First, you need to create a file named <code>CNAME</code> in your blog&rsquo;s source:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>echo 'subdomain.your-domain.com' &gt;&gt; source/CNAME</span></code></pre></td></tr></table></div></figure>
-
-
-<p>commit this file and deploy your changes.</p>
+<p>First, you need to create a file named <code>CNAME</code> in your blog&rsquo;s source:
+<code>
+echo 'subdomain.your-domain.com' &gt;&gt; source/CNAME
+</code>
+commit this file and deploy your changes.</p>
 
 <p>Second, you must use an <code>A</code> record pointing to <code>192.30.252.153</code> or <code>192.30.252.154</code>, and use an <code>ALIAS</code> record put <code>subdomain.your-domain.com</code> point to <code>username.github.io</code>.</p>
 
 <p>All done!</p>
 ]]></content>
-    
   </entry>
   
 </feed>
