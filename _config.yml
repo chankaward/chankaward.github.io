@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://chankaward.github.io
+url: http://edward.sanwuist.com
 title: Happy Hacking
 subtitle: Focus on Web
 author: Edward Chan
 simple_search: https://www.google.com/search
-description:
+description: Rubyist, Web developer, Keyboard fan, love life.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -91,7 +91,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: chankaward
 disqus_show_comment_count: false
 
 # Google Analytics
