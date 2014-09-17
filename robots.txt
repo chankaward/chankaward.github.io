@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://chankaward.github.io/sitemap.xml 
+Sitemap: http://edward.sanwuist.com/sitemap.xml 
