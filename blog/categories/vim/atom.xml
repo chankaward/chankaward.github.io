@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: vim | Happy Hacking]]></title>
+  <link href="http://edward.sanwuist.com/blog/categories/vim/atom.xml" rel="self"/>
+  <link href="http://edward.sanwuist.com/"/>
+  <updated>2014-09-18T13:54:51+08:00</updated>
+  <id>http://edward.sanwuist.com/</id>
+  <author>
+    <name><![CDATA[Edward Chan]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Share my vim color]]></title>
+    <link href="http://edward.sanwuist.com/blog/2014/09/18/share-my-vim-color/"/>
+    <updated>2014-09-18T13:39:18+08:00</updated>
+    <id>http://edward.sanwuist.com/blog/2014/09/18/share-my-vim-color</id>
+    <content type="html"><![CDATA[<h2>Installation</h2>
+
+<ul>
+<li>Vundle</li>
+<li><code>Plugin 'chankaward/vim-railscasts-theme'</code></li>
+<li>NeoBundle</li>
+<li><code>NeoBundle 'chankaward/vim-railscasts-theme'</code></li>
+<li>manual</li>
+<li>Copy railscasts.vim into ~/.vim/colors/ (Unix) or vimfiles/colors/ (Windows) as with other color schemes.</li>
+<li>Type &ldquo;colorscheme railscasts&rdquo; into your vimrc file.</li>
+</ul>
+
+
+<h2>Screenshot</h2>
+
+<p><img src="https://raw.githubusercontent.com/chankaward/vim-railscasts-theme/master/screenshot.png" /></p>
+
+<h5>Github: <a href="https://github.com/chankaward/vim-railscasts-theme">https://github.com/chankaward/vim-railscasts-theme</a></h5>
+]]></content>
+  </entry>
+  
+</feed>

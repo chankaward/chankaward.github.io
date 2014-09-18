@@ -3,6 +3,14 @@
   
   
   <url>
+    <loc>http://edward.sanwuist.com/blog/2014/09/18/share-my-vim-color/</loc>
+    
+    <lastmod>2014-09-18T13:39:18+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://edward.sanwuist.com/blog/2014/09/17/custom-subdomain-in-octopress-with-github-page/</loc>
     
     <lastmod>2014-09-17T20:24:57+08:00</lastmod>
@@ -13,21 +21,21 @@
   
   <url>
     <loc>http://edward.sanwuist.com/blog/archives/</loc>
-    <lastmod>2014-09-17T20:46:25+08:00</lastmod>
+    <lastmod>2014-09-18T13:54:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://edward.sanwuist.com/</loc>
-    <lastmod>2014-09-17T20:46:25+08:00</lastmod>
+    <lastmod>2014-09-18T13:54:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://edward.sanwuist.com/about/</loc>
-    <lastmod>2014-09-17T20:46:25+08:00</lastmod>
+    <lastmod>2014-09-18T13:54:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
