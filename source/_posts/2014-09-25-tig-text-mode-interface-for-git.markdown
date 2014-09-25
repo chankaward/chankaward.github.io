@@ -38,6 +38,6 @@ tig status
 ## Configuration
 You can add a ```.tigrc``` file to your home directory for more custom configuration.
 
-* Checkout my ```tigrc``` file in <a href="https://github.com/chankaward/.dotfile/blob/master/tigrc" target="_blank">Github</a>.
+* Checkout my ```tigrc``` file on <a href="https://github.com/chankaward/.dotfile/blob/master/tigrc" target="_blank">Github</a>.
 
-* Find the origin file in <a href="https://github.com/jonas/tig/blob/master/tigrc" target="_blank">https://github.com/jonas/tig/blob/master/tigrc</a>
+* Find the origin file on <a href="https://github.com/jonas/tig/blob/master/tigrc" target="_blank">https://github.com/jonas/tig/blob/master/tigrc</a>
