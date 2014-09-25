@@ -9,7 +9,7 @@
   <meta name="author" content="Edward Chan">
 
   
-  <meta name="description" content="Installation Vundle Plugin 'chankaward/vim-railscasts-theme' NeoBundle NeoBundle 'chankaward/vim-railscasts-theme' manual Copy railscasts.vim into &hellip;">
+  <meta name="description" content="What is Tig? Tig is an ncurses-based text-mode interface for git. It functions mainly as a Git repository browser, but can also assist in staging &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -61,6 +61,89 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+  
+    
+      <h1 class="entry-title"><a href="/blog/2014/09/25/tig-text-mode-interface-for-git/">Tig - Text-mode Interface for Git</a></h1>
+      
+      
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-09-25T15:12:25+08:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>What is Tig?</h2>
+
+<p>Tig is an ncurses-based text-mode interface for git. It functions mainly as a Git repository browser, but can also assist in staging changes for commit at chunk level and act as a pager for output from various Git commands.</p>
+
+<h2>Installation</h2>
+
+<p>If you use OSX, you can easily use <code>homebrew</code> to install <code>tig</code>, just run</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>brew install tig</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Usage</h2>
+
+<p>Just type <code>tig</code> under your project directory with <code>git</code></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>tig</span></code></pre></td></tr></table></div></figure>
+
+
+<p><img src="https://raw.githubusercontent.com/chankaward/tig/master/ts-screenshoot.png" title="Optional title" alt="Alt text" /></p>
+
+<p>Check the current changed</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>tig status</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li><code>u</code> to move the changed file to the <code>staged</code>.</li>
+<li><code>!</code> to discard file changed.</li>
+<li><code>D</code> to delete untracked files.</li>
+</ul>
+
+
+<p><img src="https://raw.githubusercontent.com/chankaward/tig/master/tig-screenshoot.png" title="Optional title" alt="Alt text" /></p>
+
+<h2>Configuration</h2>
+
+<p>You can add a <code>.tigrc</code> file to your home directory for more custom configuration.</p>
+
+<ul>
+<li><p>Checkout my <code>tigrc</code> file in <a href="https://github.com/chankaward/.dotfile/blob/master/tigrc" target="_blank">Github</a>.</p></li>
+<li><p>Find the origin file in <a href="https://github.com/jonas/tig/blob/master/tigrc" target="_blank"><a href="https://github.com/jonas/tig/blob/master/tigrc">https://github.com/jonas/tig/blob/master/tigrc</a></a></p></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -190,6 +273,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/09/25/tig-text-mode-interface-for-git/">tig - text-mode interface for git</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2014/09/18/share-my-vim-color/">Share my vim color</a>

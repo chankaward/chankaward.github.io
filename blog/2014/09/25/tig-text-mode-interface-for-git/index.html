@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Share my vim color - Happy Hacking</title>
+  <title>tig - text-mode interface for git - Happy Hacking</title>
   <meta name="author" content="Edward Chan">
 
   
-  <meta name="description" content="Installation Vundle Plugin 'chankaward/vim-railscasts-theme' NeoBundle NeoBundle 'chankaward/vim-railscasts-theme' manual Copy railscasts.vim into &hellip;">
+  <meta name="description" content="What is Tig? Tig is an ncurses-based text-mode interface for git. It functions mainly as a Git repository browser, but can also assist in staging &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://edward.sanwuist.com/blog/2014/09/18/share-my-vim-color">
+  <link rel="canonical" href="http://edward.sanwuist.com/blog/2014/09/25/tig-text-mode-interface-for-git">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Happy Hacking" type="application/atom+xml">
@@ -65,7 +65,7 @@
   <header>
   
     
-      <h1 class="entry-title">Share My Vim Color</h1>
+      <h1 class="entry-title">Tig - Text-mode Interface for Git</h1>
     
   
     
@@ -82,43 +82,59 @@
   
 
 
-<time datetime="2014-09-18T13:39:18+08:00" pubdate data-updated="true"></time>
+<time datetime="2014-09-25T15:12:25+08:00" pubdate data-updated="true"></time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><h2>Installation</h2>
+<div class="entry-content"><h2>What is Tig?</h2>
+
+<p>Tig is an ncurses-based text-mode interface for git. It functions mainly as a Git repository browser, but can also assist in staging changes for commit at chunk level and act as a pager for output from various Git commands.</p>
+
+<h2>Installation</h2>
+
+<p>If you use OSX, you can easily use <code>homebrew</code> to install <code>tig</code>, just run</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>brew install tig</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Usage</h2>
+
+<p>Just type <code>tig</code> under your project directory with <code>git</code></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>tig</span></code></pre></td></tr></table></div></figure>
+
+
+<p><img src="https://raw.githubusercontent.com/chankaward/tig/master/ts-screenshoot.png" title="Optional title" alt="Alt text" /></p>
+
+<p>Check the current changed</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>tig status</span></code></pre></td></tr></table></div></figure>
+
 
 <ul>
-<li>Vundle
+<li><code>u</code> to move the changed file to the <code>staged</code>.</li>
+<li><code>!</code> to discard file changed.</li>
+<li><code>D</code> to delete untracked files.</li>
+</ul>
+
+
+<p><img src="https://raw.githubusercontent.com/chankaward/tig/master/tig-screenshoot.png" title="Optional title" alt="Alt text" /></p>
+
+<h2>Configuration</h2>
+
+<p>You can add a <code>.tigrc</code> file to your home directory for more custom configuration.</p>
 
 <ul>
-<li><code>Plugin 'chankaward/vim-railscasts-theme'</code></li>
-</ul>
-</li>
-<li>NeoBundle
-
-<ul>
-<li><code>NeoBundle 'chankaward/vim-railscasts-theme'</code></li>
-</ul>
-</li>
-<li>manual
-
-<ul>
-<li>Copy railscasts.vim into ~/.vim/colors/ (Unix) or vimfiles/colors/ (Windows) as with other color schemes.</li>
-<li>Type &ldquo;colorscheme railscasts&rdquo; into your vimrc file.</li>
-</ul>
-</li>
+<li><p>Checkout my <code>tigrc</code> file in <a href="https://github.com/chankaward/.dotfile/blob/master/tigrc" target="_blank">Github</a>.</p></li>
+<li><p>Find the origin file in <a href="https://github.com/jonas/tig/blob/master/tigrc" target="_blank"><a href="https://github.com/jonas/tig/blob/master/tigrc">https://github.com/jonas/tig/blob/master/tigrc</a></a></p></li>
 </ul>
 
-
-<h2>Screenshot</h2>
-
-<p><img src="https://raw.githubusercontent.com/chankaward/vim-railscasts-theme/master/screenshot.png" /></p>
-
-<h5>Github: <a href="https://github.com/chankaward/vim-railscasts-theme">https://github.com/chankaward/vim-railscasts-theme</a></h5>
 </div>
 
 
@@ -141,12 +157,12 @@
   
 
 
-<time datetime="2014-09-18T13:39:18+08:00" pubdate data-updated="true"></time>
+<time datetime="2014-09-25T15:12:25+08:00" pubdate data-updated="true"></time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/vim/'>vim</a>
+    <a class='category' href='/blog/categories/git/'>git</a>, <a class='category' href='/blog/categories/tig/'>tig,</a>
   
 </span>
 
@@ -155,7 +171,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://edward.sanwuist.com/blog/2014/09/18/share-my-vim-color/" data-via="chankaward" data-counturl="http://edward.sanwuist.com/blog/2014/09/18/share-my-vim-color/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://edward.sanwuist.com/blog/2014/09/25/tig-text-mode-interface-for-git/" data-via="chankaward" data-counturl="http://edward.sanwuist.com/blog/2014/09/25/tig-text-mode-interface-for-git/" >Tweet</a>
   
   
   
@@ -164,10 +180,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/09/17/custom-subdomain-in-octopress-with-github-page/" title="Previous Post: custom subdomain in Octopress with Github page">&laquo; custom subdomain in Octopress with Github page</a>
+        <a class="basic-alignment left" href="/blog/2014/09/18/share-my-vim-color/" title="Previous Post: Share my vim color">&laquo; Share my vim color</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/09/25/tig-text-mode-interface-for-git/" title="Next Post: tig - text-mode interface for git">tig - text-mode interface for git &raquo;</a>
       
     </p>
   </footer>
@@ -254,8 +268,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://edward.sanwuist.com/blog/2014/09/18/share-my-vim-color/';
-        var disqus_url = 'http://edward.sanwuist.com/blog/2014/09/18/share-my-vim-color/';
+        var disqus_identifier = 'http://edward.sanwuist.com/blog/2014/09/25/tig-text-mode-interface-for-git/';
+        var disqus_url = 'http://edward.sanwuist.com/blog/2014/09/25/tig-text-mode-interface-for-git/';
         var disqus_script = 'embed.js';
       
     (function () {

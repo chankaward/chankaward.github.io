@@ -4,7 +4,7 @@
   <title><![CDATA[Happy Hacking]]></title>
   <link href="http://edward.sanwuist.com/atom.xml" rel="self"/>
   <link href="http://edward.sanwuist.com/"/>
-  <updated>2014-09-18T14:00:40+08:00</updated>
+  <updated>2014-09-25T15:16:21+08:00</updated>
   <id>http://edward.sanwuist.com/</id>
   <author>
     <name><![CDATA[Edward Chan]]></name>
@@ -12,6 +12,64 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    
+    <title type="html"><![CDATA[tig - text-mode interface for git]]></title>
+    <link href="http://edward.sanwuist.com/blog/2014/09/25/tig-text-mode-interface-for-git/"/>
+    
+    <updated>2014-09-25T15:12:25+08:00</updated>
+    <id>http://edward.sanwuist.com/blog/2014/09/25/tig-text-mode-interface-for-git</id>
+    
+    <content type="html"><![CDATA[<h2>What is Tig?</h2>
+
+<p>Tig is an ncurses-based text-mode interface for git. It functions mainly as a Git repository browser, but can also assist in staging changes for commit at chunk level and act as a pager for output from various Git commands.</p>
+
+<h2>Installation</h2>
+
+<p>If you use OSX, you can easily use <code>homebrew</code> to install <code>tig</code>, just run</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>brew install tig</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Usage</h2>
+
+<p>Just type <code>tig</code> under your project directory with <code>git</code></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>tig</span></code></pre></td></tr></table></div></figure>
+
+
+<p><img src="https://raw.githubusercontent.com/chankaward/tig/master/ts-screenshoot.png" title="Optional title" alt="Alt text" /></p>
+
+<p>Check the current changed</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>tig status</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li><code>u</code> to move the changed file to the <code>staged</code>.</li>
+<li><code>!</code> to discard file changed.</li>
+<li><code>D</code> to delete untracked files.</li>
+</ul>
+
+
+<p><img src="https://raw.githubusercontent.com/chankaward/tig/master/tig-screenshoot.png" title="Optional title" alt="Alt text" /></p>
+
+<h2>Configuration</h2>
+
+<p>You can add a <code>.tigrc</code> file to your home directory for more custom configuration.</p>
+
+<ul>
+<li><p>Checkout my <code>tigrc</code> file in <a href="https://github.com/chankaward/.dotfile/blob/master/tigrc" target="_blank">Github</a>.</p></li>
+<li><p>Find the origin file in <a href="https://github.com/jonas/tig/blob/master/tigrc" target="_blank"><a href="https://github.com/jonas/tig/blob/master/tigrc">https://github.com/jonas/tig/blob/master/tigrc</a></a></p></li>
+</ul>
+
+]]></content>
+    
+  </entry>
   
   <entry>
     
